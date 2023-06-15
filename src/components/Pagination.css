@@ -1,0 +1,30 @@
+.pagination__container,
+.pagination__pages {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.pagination__container button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#page-current:hover,
+.pagination__container button:hover {
+  background-color: rgb(165, 165, 165);
+}
+
+#page-current {
+  border-color: gray;
+  background-color: lightgray;
+}
+
+.btn-disabled:hover {
+  cursor: not-allowed;
+}
